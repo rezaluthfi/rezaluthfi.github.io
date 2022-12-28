@@ -536,7 +536,7 @@ img {
 /* ---- RESPONSIVE ---- */
 @media screen and (max-width: 320px) {
     .nav__menu {
-        padding: 1rem 1.5rem;
+        padding: 1rem;
     }
     
 }
