@@ -416,7 +416,10 @@ img {
     gap: 2rem;
 }
 
-.portofolio-box {
+.portofolio-box-1,
+.portofolio-box-2,
+.portofolio-box-3,
+.portofolio-box-4 {
     position: relative;
     width: 100%;
     height: 440px;
@@ -463,7 +466,10 @@ img {
     transition: 0.3s all linear;
 }
 
-.portofolio-box:hover .portofolio-overlay{
+.portofolio-box-1:hover .portofolio-overlay,
+.portofolio-box-2:hover .portofolio-overlay,
+.portofolio-box-3:hover .portofolio-overlay,
+.portofolio-box-4:hover .portofolio-overlay {
     top: 0;
     transition: 0.5s all ease;
 }
