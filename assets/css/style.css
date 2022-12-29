@@ -644,5 +644,11 @@ img {
     .portofolio-box {
         height: 260px;
     }
+    .footer-links a {
+        font-size: var(--small-font-size);
+    }
+    .footer p {
+        font-size: var(--smaller-font-size);
+    }
     
 }
