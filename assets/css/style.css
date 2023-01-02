@@ -520,6 +520,25 @@ img {
     padding: 30px 0;
 }
 
+.social-footer {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.social-footer .bx {
+    font-size: 1.3rem;
+    padding: 10px;
+    border-radius: 50%;
+    color: var(--title-color);
+    background: var(--first-color);
+}
+
+.social-footer .bx:hover {
+    background: var(--first-color-alt);
+    transition: .3s all linear;
+}
+
 .footer p {
     margin-top: 3rem;
     margin-bottom: 4rem;

@@ -35,10 +35,11 @@ sr.reveal('.home-text', {delay: 900})
 sr.reveal('.social', {delay: 1100, origin: 'bottom'})
 sr.reveal('.section__subtitle-skills, .section__title-skills', {delay: 2000})
 sr.reveal('.skills-content', {delay: 2000, origin: 'bottom'})
-sr.reveal('.portofolio-box-1', {delay: 1000, origin: 'left'})
-sr.reveal('.portofolio-box-2', {delay: 1000, origin: 'right'})
-sr.reveal('.portofolio-box-3', {delay: 1300, origin: 'left'})
-sr.reveal('.portofolio-box-4', {delay: 1300, origin: 'right'})
+sr.reveal('.portofolio-box-1', {delay: 1000, origin: 'top'})
+sr.reveal('.portofolio-box-2', {delay: 1000, origin: 'top'})
+sr.reveal('.portofolio-box-3', {delay: 1200, origin: 'top'})
+sr.reveal('.portofolio-box-4', {delay: 1200, origin: 'top'})
+sr.reveal('.social-footer', {delay: 900, origin: 'bottom'})
 
 
 
