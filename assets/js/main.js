@@ -39,6 +39,7 @@ sr.reveal(".portofolio-box-1", { delay: 1000, origin: "top" });
 sr.reveal(".portofolio-box-2", { delay: 1000, origin: "top" });
 sr.reveal(".portofolio-box-3", { delay: 1100, origin: "top" });
 sr.reveal(".portofolio-box-4", { delay: 1100, origin: "top" });
+sr.reveal(".portofolio-box-5", { delay: 1200, origin: "top" });
 
 //Email JS
 function validate() {
