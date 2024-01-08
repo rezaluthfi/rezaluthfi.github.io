@@ -35,11 +35,6 @@ sr.reveal(".home-text", { delay: 900 });
 sr.reveal(".social", { delay: 1100, origin: "bottom" });
 sr.reveal(".section__subtitle-skills, .section__title-skills", { delay: 1000 });
 sr.reveal(".skills-content", { delay: 1000, origin: "bottom" });
-sr.reveal(".portofolio-box-1", { delay: 1000, origin: "top" });
-sr.reveal(".portofolio-box-2", { delay: 1000, origin: "top" });
-sr.reveal(".portofolio-box-3", { delay: 1100, origin: "top" });
-sr.reveal(".portofolio-box-4", { delay: 1100, origin: "top" });
-sr.reveal(".portofolio-box-5", { delay: 1200, origin: "top" });
 
 //Email JS
 function validate() {
@@ -89,4 +84,27 @@ let scrollTop = document.querySelector(".scroll-top");
 
 window.addEventListener("scroll", () => {
   scrollTop.classList.toggle("scroll-active", window.scrollY >= 400);
+});
+
+// Filter Portofolio Projects
+let fiterItem = document.querySelector(".items-links");
+let fileteImages = document.querySelectorAll(".project-img");
+
+window.addEventListener("load", () => {
+  fiterItem.addEventListener("click", (selectedItem) => {
+    if (selectedItem.target.classList.contains("item-link")) {
+      document.querySelector(".menu-active").classList.remove("menu-active");
+      selectedItem.target.classList.add("menu-active");
+
+      let filterName = selectedItem.target.getAttribute("data-name");
+      fileteImages.forEach((image) => {
+        let filterImages = image.getAttribute("data-name");
+        if (filterImages == filterName || filterName == "all") {
+          image.style.display = "block";
+        } else {
+          image.style.display = "none";
+        }
+      });
+    }
+  });
 });
