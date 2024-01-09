@@ -337,6 +337,7 @@ img {
 .social .bx:hover {
   background: var(--first-color-alt);
   transition: 0.3s all linear;
+  scale: 1.1;
 }
 
 /* ---- SKILLS ---- */
@@ -430,9 +431,9 @@ img {
 }
 
 .item-link:hover {
-  /* border: 2px solid var(--first-color); */
-  background: var(--container-color);
   color: var(--first-color);
+  transition: 0.3s all linear;
+  scale: 1.1;
 }
 
 .menu-active {
@@ -529,6 +530,7 @@ img {
 
 .btn-light:hover {
   background: var(--container-color);
+  border: 1px solid transparent;
   color: var(--first-color);
 }
 
@@ -573,7 +575,7 @@ img {
   padding: 12px;
   background: var(--first-color);
   cursor: pointer;
-  color: var(--text-color);
+  color: #fff;
 }
 
 .contact-form .send-btn:hover {
@@ -608,6 +610,7 @@ img {
 .social-footer .bx:hover {
   background: var(--first-color-alt);
   transition: 0.3s all linear;
+  scale: 1.1;
 }
 
 .footer p {
@@ -746,7 +749,7 @@ img {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .items-links {
     gap: 20px;
     flex-wrap: wrap;
